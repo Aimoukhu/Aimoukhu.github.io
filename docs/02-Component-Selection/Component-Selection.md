@@ -2,7 +2,7 @@
 title: Component Selection Example
 ---
 
-**Microphone**
+## **Microphone**
 
 1. CMEJ-4618-42-LX Electric Condenser Microphone
 
@@ -45,7 +45,7 @@ title: Component Selection Example
 
 
 
-**Speaker**
+## **Speaker**
 
 1. CE-2808B36 Round Micro Speaker
 
@@ -88,7 +88,7 @@ title: Component Selection Example
 
 
 
-**Switches**
+## **Switches**
 
 1. R4ABLKBLKFF0 Rocker Switch
 
