@@ -170,6 +170,7 @@ title: Component Selection Example
     | High Operating Temperature | 2 Circuit |
   
 **Choice:** Option 2: MCP6004-I/P Op Amp
+
 **Rationale:** This Op-Amp provides 4 Circuits that can be used all on one supply voltage. It is also already available to the team and hence has no cost.
 
 
@@ -212,5 +213,6 @@ title: Component Selection Example
     | InExpensive | No Proper Documentation |
   
 **Choice:** Option 2: AP7375-50SA-7 Regulator
+
 **Rationale:** This Regulator offer current control to protect lower rated components on the circuit and has a larger max input voltage allowing for any sudden spike in the wall power.
 
