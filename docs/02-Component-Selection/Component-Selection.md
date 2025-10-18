@@ -92,7 +92,7 @@ title: Component Selection Example
 
 1. R4ABLKBLKFF0 Rocker Switch
 
-    ![](sp1.png)
+    ![](sw1.png)
 
     * $1.39/each
     * [link to product](https://www.digikey.com/en/products/detail/e-switch/R4ABLKBLKFF0/1805256)
@@ -104,7 +104,7 @@ title: Component Selection Example
 
 2. ESE-20D441 PushButton Switch
 
-    ![](sp2.png)
+    ![](sw2.png)
 
     * $0.88/each
     * [Link to product](https://www.digikey.com/en/products/detail/panasonic-electronic-components/ESE-20D441/593519)
@@ -116,7 +116,7 @@ title: Component Selection Example
 
 3. CST10T2CR Relay Switch
 
-    ![](sp3.png)
+    ![](sw3.png)
 
     * $2.65/each
     * [Link to product](https://www.digikey.com/en/products/detail/cit-relay-and-switch/CST10T2CR/12503245)
