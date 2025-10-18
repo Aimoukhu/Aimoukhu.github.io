@@ -574,6 +574,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Op-Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5v-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      5V Regulator
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -837,6 +855,24 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#op-amp" class="md-nav__link">
+    <span class="md-ellipsis">
+      Op-Amp
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5v-regulator" class="md-nav__link">
+    <span class="md-ellipsis">
+      5V Regulator
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1075,6 +1111,147 @@
 </ol>
 <p><strong>Choice:</strong> Option 3: CST10T2CR Relay Switch</p>
 <p><strong>Rationale:</strong> This Relay system built into the switch would allow fro using a tiny input current to set off a larger current for the circuit. This can be useful in avoiding/filtering low voltage passses that may either not register or cause a false high.</p>
+<h2 id="op-amp"><strong>Op-Amp</strong></h2>
+<ol>
+<li>
+<p>LM358ADR Op Amp</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="op1.png" data-desc-position="bottom"><img alt="" src="op1.png"></a></p>
+<ul>
+<li>$0.2/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/texas-instruments/LM358ADR/555721">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>InExpensive</td>
+<td>Output not Rail to Rail</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>MCP6004-I/P Op Amp</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="op2.png" data-desc-position="bottom"><img alt="" src="op2.png"></a></p>
+<ul>
+<li>$0.6/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>4 Op-Amp Circuits</td>
+<td>Expensive</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>MCP6006UT-E/OT Op Amp</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="op3.png" data-desc-position="bottom"><img alt="" src="op3.png"></a></p>
+<ul>
+<li>$0.2/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6006UT-E-OT/13985884">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>High Operating Temperature</td>
+<td>2 Circuit</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 2: MCP6004-I/P Op Amp
+<strong>Rationale:</strong> This Op-Amp provides 4 Circuits that can be used all on one supply voltage. It is also already available to the team and hence has no cost.</p>
+<h2 id="5v-regulator"><strong>5V Regulator</strong></h2>
+<ol>
+<li>
+<p>AS78L05RTR-E1 Regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../vr1.png" data-desc-position="bottom"><img alt="" src="../vr1.png"></a></p>
+<ul>
+<li>$0.12/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943">link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>InExpensive</td>
+<td>Lower Max Input Voltage</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>AP7375-50SA-7 Regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../vr2.png" data-desc-position="bottom"><img alt="" src="../vr2.png"></a></p>
+<ul>
+<li>$0.25/each</li>
+<li><a href="https://www.digikey.com/en/products/detail/diodes-incorporated/AP7375-50SA-7/16400218">Link to product</a></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Current Limit Control Feauture</td>
+<td>Larger Voltage Dropoff</td>
+</tr>
+</tbody>
+</table>
+</li>
+<li>
+<p>Custom Made Regulator</p>
+<p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../vr3.png" data-desc-position="bottom"><img alt="" src="../vr3.png"></a></p>
+<ul>
+<li>$0.0/each</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Pros</th>
+<th>Cons</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>InExpensive</td>
+<td>No Proper Documentation</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ol>
+<p><strong>Choice:</strong> Option 2: AP7375-50SA-7 Regulator
+<strong>Rationale:</strong> This Regulator offer current control to protect lower rated components on the circuit and has a larger max input voltage allowing for any sudden spike in the wall power.</p>
 
 
 
