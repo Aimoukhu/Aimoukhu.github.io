@@ -128,3 +128,89 @@ title: Component Selection Example
 **Choice:** Option 3: CST10T2CR Relay Switch
 
 **Rationale:** This Relay system built into the switch would allow fro using a tiny input current to set off a larger current for the circuit. This can be useful in avoiding/filtering low voltage passses that may either not register or cause a false high.
+
+
+
+## **Op-Amp**
+
+1. LM358ADR Op Amp
+
+    ![](op1.png)
+
+    * $0.2/each
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/LM358ADR/555721)
+
+    | Pros        | Cons                    |
+    |-------------|-------------------------|
+    | InExpensive | Output not Rail to Rail |
+ 
+
+2. MCP6004-I/P Op Amp
+
+    ![](op2.png)
+
+    * $0.6/each
+    * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060)
+
+    | Pros              | Cons      |
+    |-------------------|-----------|
+    | 4 Op-Amp Circuits | Expensive |
+
+
+3. MCP6006UT-E/OT Op Amp
+
+
+    ![](op3.png)
+
+    * $0.2/each
+    * [Link to product](https://www.digikey.com/en/products/detail/microchip-technology/MCP6006UT-E-OT/13985884)
+
+    | Pros                       | Cons      |
+    |----------------------------|-----------|
+    | High Operating Temperature | 2 Circuit |
+  
+**Choice:** Option 2: MCP6004-I/P Op Amp
+**Rationale:** This Op-Amp provides 4 Circuits that can be used all on one supply voltage. It is also already available to the team and hence has no cost.
+
+
+
+## **5V Regulator**
+
+1. AS78L05RTR-E1 Regulator
+
+    ![](vr1.png)
+
+    * $0.12/each
+    * [link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AS78L05RTR-E1/4470943)
+
+    | Pros        | Cons                    |
+    |-------------|-------------------------|
+    | InExpensive | Lower Max Input Voltage |
+ 
+
+2. AP7375-50SA-7 Regulator
+
+    ![](vr2.png)
+
+    * $0.25/each
+    * [Link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AP7375-50SA-7/16400218)
+
+    | Pros                           | Cons                   |
+    |--------------------------------|------------------------|
+    | Current Limit Control Feauture | Larger Voltage Dropoff |
+
+
+3. Custom Made Regulator
+
+
+    ![](vr3.png)
+
+    * $0.0/each
+
+    | Pros        | Cons                    |
+    |-------------|-------------------------|
+    | InExpensive | No Proper Documentation |
+  
+**Choice:** Option 2: AP7375-50SA-7 Regulator
+**Rationale:** This Regulator offer current control to protect lower rated components on the circuit and has a larger max input voltage allowing for any sudden spike in the wall power.
+
