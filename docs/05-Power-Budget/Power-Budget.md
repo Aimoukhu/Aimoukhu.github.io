@@ -17,4 +17,4 @@ From the prepare Power Budget, the only logical approach is to connect the devic
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](Power.pdf), and a Microsoft Excel Sheet [*here*](Power.xlsx).
+The power budget as a PDF download is available [*here*](Power.pdf), and a Microsoft Excel Sheet [*here*](Power.xlsx)
