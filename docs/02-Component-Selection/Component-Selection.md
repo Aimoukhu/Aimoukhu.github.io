@@ -2,57 +2,129 @@
 title: Component Selection Example
 ---
 
-## Examples
+**Microphone**
 
-### Style 1
+1. CMEJ-4618-42-LX Electric Condenser Microphone
 
-> This is the example found in the assignment, uses more html
+    ![](mic1.png)
 
-*Table 1: Example component selection*
-
-**External Clock Module**
-
-| **Solution**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br>Option 1.<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
-| ![](image3.png)<br>\* Option 2. <br>\* CTX936TR-ND surface mount oscillator <br>\* $1/each <br>\* [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940) | \* Outputs a square wave <br>\* Stable over operating temperature <br> \* Direct interface with PSoC (no external circuitry required) range | * More expensive <br>\* Slow shipping speed                                                         |
-
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
-
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
-
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
+    * $0.83/each
+    * [link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMEJ-4618-42-L177/10253441)
 
     | Pros                                      | Cons                                                             |
     | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
+    | Inexpensive                               | Smaller Frequency Range|
+ 
 
-1. CTX936TR-ND surface mount oscillator
+2. AOM-4544P-2-R Omni-Directional Microphone 
 
-    ![](image3.png)
+    ![](mic2.png)
 
     * $1/each
-    * [Link to product](http://www.digikey.com/product-detail/en/636L3I001M84320/CTX936TR-ND/2292940)
+    * [Link to product](https://www.digikey.com/en/products/detail/pui-audio-inc/AOM-4544P-2-R/1745492)
 
     | Pros                                                              | Cons                |
     | ----------------------------------------------------------------- | ------------------- |
-    | Outputs a square wave                                             | More expensive      |
-    | Stable over operating temperature                                 | Slow shipping speed |
-    | Direct interface with PSoC (no external circuitry required) range |
+    | Stable frequency response      | Pin Type Mounting(Requires special connection)
 
-**Choice:** Option 2: CTX936TR-ND surface mount oscillator
 
-**Rationale:** A clock oscillator is easier to work with because it requires no external circuitry in order to interface with the PSoC. This is particularly important because we are not sure of the electrical characteristics of the PCB, which could affect the oscillation of a crystal. While the shipping speed is slow, according to the website if we order this week it will arrive within 3 weeks.
+3. PMOF-9745W-42DQ Analog Microphone Electret Condenser
+
+    ![](mic3.png)
+
+    * $1.82/each
+    * [Link to product](https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PMOF-9745W-42DQ/6564383)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Higher Sensitivity Range for low profile environments                                     |Lower Signal to Noise ratio.      |
+  
+**Choice:** Option 2: AOM-4544P-2-R Omni-Directional Microphone
+
+**Rationale:** This microphone is the better choice because it sits within the middle of the sensitivity range, price, and Signal to Noise rato of the other two microphones. Coupled with its stable frequency reducing the need for a filter, this microphone is the obvious choice. 
+
+
+
+**Speaker**
+
+1. CE-2808B36 Round Micro Speaker
+
+    ![](sp1.png)
+
+    * $0.85/each
+    * [link to product](https://www.jameco.com/z/CE-2808B36-James-Electronics-Micro-Round-8-Ohm-Mylar-Speaker-92-dB-2-Watt-1-5-Wires_2302983.html)
+
+    | Pros        | Cons                    |
+    |-------------|-------------------------|
+    | Inexpensive | Smaller Frequency Range |
+ 
+
+2. SP-4005Y Dynamic Speaker Unit
+
+    ![](sp2.png)
+
+    * $2/each
+    * [Link to product](https://www.digikey.com/en/products/detail/soberton-inc/SP-4005Y/9924431)
+
+    | Pros              | Cons                    |
+    |-------------------|-------------------------|
+    | Higher Efficiency | Smaller Frequency Range |
+
+
+3. AST-02308MR-R General Purpose Speaker
+
+    ![](sp3.png)
+
+    * $3.36/each
+    * [Link to product](https://www.digikey.com/en/products/detail/pui-audio-inc/AST-02308MR-R/1464874)
+
+    | Pros                   | Cons      |
+    |------------------------|-----------|
+    | Higher Frequency Range | Expensive |
+  
+**Choice:** Option 2: SP-4005Y Dynamic Speaker Unit
+
+**Rationale:** This Speaker has a high efficiency while keeping a relatively low price. Hence, it can provide louder and clearer sounds even off a low powered setup lik the saystem we intend to build.
+
+
+
+**Switches**
+
+1. R4ABLKBLKFF0 Rocker Switch
+
+    ![](sp1.png)
+
+    * $1.39/each
+    * [link to product](https://www.digikey.com/en/products/detail/e-switch/R4ABLKBLKFF0/1805256)
+
+    | Pros                            | Cons                |
+    |---------------------------------|---------------------|
+    | More durable than other options | High Voltage Rating |
+ 
+
+2. ESE-20D441 PushButton Switch
+
+    ![](sp2.png)
+
+    * $0.88/each
+    * [Link to product](https://www.digikey.com/en/products/detail/panasonic-electronic-components/ESE-20D441/593519)
+
+    | Pros        | Cons                                                             |
+    |-------------|------------------------------------------------------------------|
+    | Inexpensive | Pushbuttons may be easy to miss or break in emergency situations |
+
+
+3. CST10T2CR Relay Switch
+
+    ![](sp3.png)
+
+    * $2.65/each
+    * [Link to product](https://www.digikey.com/en/products/detail/cit-relay-and-switch/CST10T2CR/12503245)
+
+    | Pros         | Cons      |
+    |--------------|-----------|
+    | Relay System | Expensive |
+  
+**Choice:** Option 3: CST10T2CR Relay Switch
+
+**Rationale:** This Relay system built into the switch would allow fro using a tiny input current to set off a larger current for the circuit. This can be useful in avoiding/filtering low voltage passses that may either not register or cause a false high.
