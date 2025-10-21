@@ -4,13 +4,13 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support Audio Systems (Alarm and Microphone) in a Smart Door Sensor.
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](Schematic.png){style width:"350" height:"300;"}
+**Figure ##:** Schematic Design.
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](Schematic.pdf), and the Zip folder of the project [*here*](Schematic.zip).
