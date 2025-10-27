@@ -1,49 +1,6 @@
 ---
-title: Component Selection Example
+title: Component Selection Alarm Subsystem
 ---
-
-## **Microphone**
-
-1. CMEJ-4618-42-LX Electric Condenser Microphone
-
-    ![](mic1.png)
-
-    * $0.83/each
-    * [link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMEJ-4618-42-L177/10253441)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Smaller Frequency Range|
- 
-
-2. AOM-4544P-2-R Omni-Directional Microphone 
-
-    ![](mic2.png)
-
-    * $1/each
-    * [Link to product](https://www.digikey.com/en/products/detail/pui-audio-inc/AOM-4544P-2-R/1745492)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Stable frequency response      | Pin Type Mounting(Requires special connection)
-
-
-3. PMOF-9745W-42DQ Analog Microphone Electret Condenser
-
-    ![](mic3.png)
-
-    * $1.82/each
-    * [Link to product](https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PMOF-9745W-42DQ/6564383)
-
-    | Pros                                                              | Cons                |
-    | ----------------------------------------------------------------- | ------------------- |
-    | Higher Sensitivity Range for low profile environments                                     |Lower Signal to Noise ratio.      |
-  
-**Choice:** Option 2: AOM-4544P-2-R Omni-Directional Microphone
-
-**Rationale:** This microphone is the better choice because it sits within the middle of the sensitivity range, price, and Signal to Noise rato of the other two microphones. Coupled with its stable frequency reducing the need for a filter, this microphone is the obvious choice. 
-
-
 
 ## **Speaker**
 
@@ -84,7 +41,7 @@ title: Component Selection Example
   
 **Choice:** Option 2: SP-4005Y Dynamic Speaker Unit
 
-**Rationale:** This Speaker has a high efficiency while keeping a relatively low price. Hence, it can provide louder and clearer sounds even off a low powered setup lik the saystem we intend to build.
+**Rationale:** This Speaker has a high efficiency while keeping a relatively low price. Hence, it can provide louder and clearer sounds even off a low powered setup like the system we intend to build.
 
 
 
@@ -127,7 +84,7 @@ title: Component Selection Example
   
 **Choice:** Option 3: CST10T2CR Relay Switch
 
-**Rationale:** This Relay system built into the switch would allow fro using a tiny input current to set off a larger current for the circuit. This can be useful in avoiding/filtering low voltage passses that may either not register or cause a false high.
+**Rationale:** This Relay system built into the switch would allow to control appliances with low power signals. This can be useful in protecting against high voltage passes and other hazardous conditions by safely switching circuits off to prevent damage.
 
 
 
@@ -212,7 +169,52 @@ title: Component Selection Example
     |-------------|-------------------------|
     | InExpensive | No Proper Documentation |
   
-**Choice:** Option 2: AP7375-50SA-7 Regulator
+**Choice:** Option 2: Custom Made Regulator
 
-**Rationale:** This Regulator offer current control to protect lower rated components on the circuit and has a larger max input voltage allowing for any sudden spike in the wall power.
+**Rationale:** This Regulator offer customization on impedance and fuse ratings hence allowing for current control to protect lower rated components on the circuit and output control allowing for any voltage need by the components.
 
+<!--
+
+## **Microphone**
+
+1. CMEJ-4618-42-LX Electric Condenser Microphone
+
+    ![](mic1.png)
+
+    * $0.83/each
+    * [link to product](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CMEJ-4618-42-L177/10253441)
+
+    | Pros                                      | Cons                                                             |
+    | ----------------------------------------- | ---------------------------------------------------------------- |
+    | Inexpensive                               | Smaller Frequency Range|
+ 
+
+2. AOM-4544P-2-R Omni-Directional Microphone 
+
+    ![](mic2.png)
+
+    * $1/each
+    * [Link to product](https://www.digikey.com/en/products/detail/pui-audio-inc/AOM-4544P-2-R/1745492)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Stable frequency response      | Pin Type Mounting(Requires special connection)
+
+
+3. PMOF-9745W-42DQ Analog Microphone Electret Condenser
+
+    ![](mic3.png)
+
+    * $1.82/each
+    * [Link to product](https://www.digikey.com/en/products/detail/mallory-sonalert-products-inc/PMOF-9745W-42DQ/6564383)
+
+    | Pros                                                              | Cons                |
+    | ----------------------------------------------------------------- | ------------------- |
+    | Higher Sensitivity Range for low profile environments                                     |Lower Signal to Noise ratio.      |
+  
+**Choice:** Option 2: AOM-4544P-2-R Omni-Directional Microphone
+
+**Rationale:** This microphone is the better choice because it sits within the middle of the sensitivity range, price, and Signal to Noise rato of the other two microphones. Coupled with its stable frequency reducing the need for a filter, this microphone is the obvious choice. 
+
+
+>
