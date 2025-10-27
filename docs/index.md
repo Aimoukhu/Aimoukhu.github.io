@@ -20,7 +20,7 @@ for<br>
 
 ### Project Summary
 
-* Smart Door Sensor designed to be capable of detection to determine if door is locked, auto-lock and unlock operations, number pad input for added security, and an<ins>alarm system</ins> to notify users of any issues to be resolved.
+* Smart Door Sensor designed to be capable of detection to determine if door is locked, auto-lock and unlock operations, number pad input for added security, and an <ins>alarm system</ins> to notify users of any issues to be resolved.
 * Project research, design and development documented on the [team website.](https://asu-egr304-2025-f-209.github.io/)
 
 ### Product Objective and Requirements

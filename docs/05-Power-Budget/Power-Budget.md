@@ -13,7 +13,7 @@ Power Budget for the Alarm Subsystem to calculate plausible power sources and de
 
 ## Conclusions
 
-From the prepare Power Budget, the only logical approach is to connect the device to a wall power terminal.
+From the Power Budget, 
 
 ## Resouces
 
