@@ -215,6 +215,4 @@ title: Component Selection Alarm Subsystem
 **Choice:** Option 2: AOM-4544P-2-R Omni-Directional Microphone
 
 **Rationale:** This microphone is the better choice because it sits within the middle of the sensitivity range, price, and Signal to Noise rato of the other two microphones. Coupled with its stable frequency reducing the need for a filter, this microphone is the obvious choice. 
-
-
->
+-->
