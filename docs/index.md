@@ -7,28 +7,23 @@ tags:
 <center>
 <font size= "6">Andrew Imoukhuede Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8"> Smart Door Sensor</font><br>
 for<br>
 <font size= "5"> Team 209 </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: October 27, 2025**
 </center>
 
 ## Introduction
 
-* This needs to be updated so that a reader gets an idea of the purpose of this datasheet.
+* This is the individual website the research, design and development of the Alarm Subsystem in the Smart Door Sensor.
 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* Smart Door Sensor designed to be capable of detection to determine if door is locked, auto-lock and unlock operations, number pad input for added security, and an<ins>alarm system</ins> to notify users of any issues to be resolved.
+* Project research, design and development documented [here.](https://asu-egr304-2025-f-209.github.io/)
 
-
-### My Contribution
-
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
+### Product Objective and Requirements
+>This project aims to investigate and develop smart adaptive technologies, an improved user experience, better fit, improved product design, and product customization options for the next-generation of home door sensors. 
+<br>
+This subsystem fulfils requirements stated in Section 2.2 of the [team product requirements](https://asu-egr304-2025-f-209.github.io/) "The product shall send real-time alerts for door left open, forced entry attempts, and lock tampering".
