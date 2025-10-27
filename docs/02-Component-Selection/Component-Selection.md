@@ -43,7 +43,7 @@ title: Component Selection Alarm Subsystem
 
 **Rationale:** This Speaker has a high efficiency while keeping a relatively low price. Hence, it can provide louder and clearer sounds even off a low powered setup like the system we intend to build.
 
----
+**---**
 
 
 ## **Switches**
@@ -87,7 +87,7 @@ title: Component Selection Alarm Subsystem
 
 **Rationale:** This Relay system built into the switch would allow to control appliances with low power signals. This can be useful in protecting against high voltage passes and other hazardous conditions by safely switching circuits off to prevent damage.
 
----
+**---**
 
 ## **Op-Amp**
 
@@ -131,7 +131,7 @@ title: Component Selection Alarm Subsystem
 
 **Rationale:** This Op-Amp provides 4 Circuits that can be used all on one supply voltage. It is also already available to the team and hence has no cost.
 
----
+**---**
 
 ## **5V Regulator**
 
@@ -174,7 +174,7 @@ title: Component Selection Alarm Subsystem
 
 **Rationale:** This Regulator offer customization on impedance and fuse ratings hence allowing for current control to protect lower rated components on the circuit and output control allowing for any voltage need by the components.
 
----
+**---**
 
 <!--
 
