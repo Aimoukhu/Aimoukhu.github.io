@@ -1,5 +1,5 @@
 ---
-title: Welcome to my Website
+title: Home
 tags:
 - tag1
 - tag2
