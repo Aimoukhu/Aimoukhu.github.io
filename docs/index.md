@@ -18,12 +18,12 @@ for<br>
 
 * This is the individual website the research, design and development of the Alarm Subsystem in the Smart Door Sensor.
 
-### Project Summary
+## Project Summary
 
 * Smart Door Sensor designed to be capable of detection to determine if door is locked, auto-lock and unlock operations, number pad input for added security, and an <ins>alarm system</ins> to notify users of any issues to be resolved.
 * Project research, design and development documented on the [team website.](https://asu-egr304-2025-f-209.github.io/)
 
-### Product Objective and Requirements
+## Product Objective and Requirements
 >This project aims to investigate and develop smart adaptive technologies, an improved user experience, better fit, improved product design, and product customization options for the next-generation of home door sensors. 
 <br>
 This subsystem fulfils requirements stated in Section 2.2 of the [team product requirements](https://asu-egr304-2025-f-209.github.io/04-Product-Requirements/#aspects) "The product shall send real-time alerts for door left open, forced entry attempts, and lock tampering".
