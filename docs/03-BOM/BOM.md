@@ -13,7 +13,9 @@ Bill of Materials for the Alarm Subsystem
 ![](BOM.png){style width: "2000"}
 **Figure 1:** Bill of Materials Screenshot
 
+## Resources
 
+The BOM as a PDF download is available [*here*](BOM.pdf).
 
 
 
