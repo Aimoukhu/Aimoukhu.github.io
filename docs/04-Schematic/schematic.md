@@ -8,7 +8,7 @@ This schematic is design to support Audio Systems (Alarm and Microphone) in a Sm
 
 
 ![schematic](Schematic.png){style width:"350" height:"300;"}
-**Figure ##:** Schematic Design.
+**Figure 1:** Schematic Design.
 
 
 ## Resouces
