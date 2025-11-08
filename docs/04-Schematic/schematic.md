@@ -7,7 +7,7 @@ title: Schematic
 This schematic is designed to support Alarm Systems in a Smart Door Sensor.
 
 
-![schematic](Schematic.png){style width:"350" height:"300;"}
+![SCHEMATIC](Schematic.png){style width:"350" height:"300;"}
 **Figure 1:** Schematic Design.
 
 
