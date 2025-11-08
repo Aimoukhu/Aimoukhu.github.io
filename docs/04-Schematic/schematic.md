@@ -13,4 +13,4 @@ This schematic is designed to support Alarm Systems in a Smart Door Sensor.
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](Schematic.pdf), and the Zip folder of the project [*here*](Schematic.zip).
+The schematic as a PDF download is available [*here*](Schematic.pdf), and the Zip folder of the project [*here*](AlarmSubsystemDesign.zip).
