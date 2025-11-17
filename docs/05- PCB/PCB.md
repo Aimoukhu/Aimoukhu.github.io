@@ -8,7 +8,7 @@ PCB design of SubSystem Schematic.
 
 
 ![schematic](PCB.png){style width:"350" height:"300;"}
-![schematic](PCB_2.png){style width:"350" height:"300;"}
+![schematic](PCB2.png){style width:"350" height:"300;"}
 **Figure 1:** PCB Design.
 
 
