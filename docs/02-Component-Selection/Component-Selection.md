@@ -4,7 +4,7 @@ title: Component Selection Alarm Subsystem
 
 ## **Speaker**
 
-1. CE-2808B36 Round Micro Speaker
+1. 4166 Part Passive Buzzer 5V-ND
 
     ![](sp1.png)
 
@@ -13,7 +13,7 @@ title: Component Selection Alarm Subsystem
 
     | Pros        | Cons                    |
     |-------------|-------------------------|
-    | Inexpensive | Smaller Frequency Range |
+    | Inexpensive | High Effieciency |
  
 
 2. SP-4005Y Dynamic Speaker Unit
@@ -39,9 +39,9 @@ title: Component Selection Alarm Subsystem
     |------------------------|-----------|
     | Higher Frequency Range | Expensive |
   
-**Choice:** Option 2: SP-4005Y Dynamic Speaker Unit
+**Choice:** Option 1: 4166 Part Passive Buzzer 5V-ND
 
-**Rationale:** This Speaker has a high efficiency while keeping a relatively low price. Hence, it can provide louder and clearer sounds even off a low powered setup like the system we intend to build.
+**Rationale:** This Speaker has a high efficiency while keeping a relatively low price. It is also pizzoelectric and can provide louder and clearer sounds even off a low powered setup like the system we intend to build.
 
 **---**
 
@@ -159,20 +159,20 @@ title: Component Selection Alarm Subsystem
     | Current Limit Control Feauture | Larger Voltage Dropoff |
 
 
-3. Custom Made Regulator
+3. 	4491-L7805-ND
 
 
     ![](vr3.png)
 
-    * $0.0/each
+    * $0.48/each
 
     | Pros        | Cons                    |
     |-------------|-------------------------|
-    | InExpensive | No Proper Documentation |
+    | Higher current output | Expensive |
   
-**Choice:** Option 2: Custom Made Regulator
+**Choice:** Option 3: 4491-L7805-ND
 
-**Rationale:** This Regulator offer customization on impedance and fuse ratings hence allowing for current control to protect lower rated components on the circuit and output control allowing for any voltage need by the components.
+**Rationale:** This Regulator is already available to our team to use. It also provides enough current to power the MCU and all the connected peripherals.
 
 **---**
 
