@@ -9,7 +9,7 @@ title: Component Selection Alarm Subsystem
     ![](sp1.png)
 
     * $0.85/each
-    * [link to product](https://www.jameco.com/z/CE-2808B36-James-Electronics-Micro-Round-8-Ohm-Mylar-Speaker-92-dB-2-Watt-1-5-Wires_2302983.html)
+    * [link to product](https://www.digikey.com/en/products/detail/gearbox-labs/PART-PASSIVE-BUZZER-5V/16158143?s=N4IgTCBcDaICwEYBsSAEAFAhgJwC4cwGdCBLANwFNUAhAVwC96LtUBWANQFoA5AERAC6AXyA)
 
     | Pros        | Cons                    |
     |-------------|-------------------------|
