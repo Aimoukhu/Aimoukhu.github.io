@@ -7,11 +7,13 @@ title: PCB
 PCB design of SubSystem Schematic. 
 
 
-![schematic](PCB.png){style width:"350" height:"300;"}
 ![schematic](PCB2.png){style width:"350" height:"300;"}
+**Figure 1:** PCB Circuit Board (Front and Back).
 ![schematic](PCB3.png){style width:"350" height:"300;"}
+**Figure 2:** PCB ECAD Design (Front and Back Layer).
+![schematic](PCB.png){style width:"350" height:"300;"}
+**Figure 3:** PCB Footprint Design.
 
-**Figure 1:** PCB Design.
 
 
 ## Resources
