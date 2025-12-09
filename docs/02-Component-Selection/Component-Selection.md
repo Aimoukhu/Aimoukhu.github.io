@@ -164,7 +164,7 @@ title: Component Selection Alarm Subsystem
 
     ![](vr3.png)
 
-    * $0.48/each
+    * $0.48/each.
 
     | Pros        | Cons                    |
     |-------------|-------------------------|
