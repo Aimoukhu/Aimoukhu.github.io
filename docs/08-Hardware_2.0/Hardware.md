@@ -1,4 +1,4 @@
-## Potential Improvements for version 2.0
+# Potential Improvements for version 2.0
 
 # Enhanced Audio Output System
 Upgrade the passive pizzo buzzer to an active buzzer speaker module. This improves sound clarity, increases maximum volume, and enables more flexible tones. Adding a PWM-based volume control will also gives users the ability to adjust loudness based on their environment, making the audio system more adaptable and user-friendly.
