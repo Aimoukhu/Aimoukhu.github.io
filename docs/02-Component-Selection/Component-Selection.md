@@ -176,6 +176,24 @@ title: Component Selection Alarm Subsystem
 
 **---**
 
+##  **Component Summary**
+
+- Speaker: Part Number: 4166 Part Passive Buzzer 5V-ND
+Type: Piezoelectric, 5V
+Rationale: High efficiency, low price, provides loud and clear sounds even on low-powered setup
+
+- Relay Switch: Part Number: CST10T2CR
+Type: Relay-integrated switch
+Rationale: Controls appliances with low power signals, protects against high voltage and hazardous conditions by safely switching circuits off
+
+- Operational Amplifier: Part Number: MCP6004-I/P
+Type: Quad op-amp, single supply voltage
+Rationale: Provides 4 circuits on one supply voltage, already available to team (zero cost)
+
+- Voltage Regulator: Part Number: L7805 (4491-L7805-ND)
+Type: 5V output regulator
+Rationale: Provides sufficient current to power MCU and all connected peripherals, already available to team
+
 <!--
 
 ## **Microphone**
